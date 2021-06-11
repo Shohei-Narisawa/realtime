@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="main.css">
+        <title>リアルタイムフィルター</title>
+      </head>
+ 
+      <body>
+        <h2>リアルタイムフィルター</h2>
+        <p>入力した文字を含まない要素は非表示となります</p>
+        <div>
+          <input type="text" name="search-box" class="searchText"/>
+        </div class="img-box">
+        <ul id="searchList">
+          <li>
+            <img src="images/kuruma.png">
+            <p>キーワード</p>
+            <div class="keyWords">
+              <p>車 くるま kuruma</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/aozora.png">
+            <p>キーワード</p>
+            <div class="keyWords">
+              <p>青空 あおぞら aozora</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/asagao.png">
+            <p>キーワード</p>
+            <div class="keyWords">
+              <p>朝顔 あさがお asagao</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/uma.png">
+            <p>キーワード</p>
+            <div class="keyWords">
+              <p>馬 うま uma</p>
+            </div>
+          </li>
+        </ul>
+        <script src="main.js"></script>
+      </body>
+    </html>
